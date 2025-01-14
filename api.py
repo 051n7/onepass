@@ -43,7 +43,7 @@ class OnePasswordClient:
 if __name__ == "__main__":
     # 1Password Connect APIの設定
     BASE_URL = "http://localhost:8080"  # 1Password Connect ServerのURL
-    API_KEY = "18j98qwej9f8enq8hnowecqehowejnr98qeur9qjp8ewjq8we"       # 生成したAPIキー
+    API_KEY = "delete" 
 
     # APIクライアントの初期化
     client = OnePasswordClient(BASE_URL, API_KEY)
